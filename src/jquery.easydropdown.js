@@ -338,7 +338,7 @@
 				index: index,
 				title: option.title
 			};
-			self.focusIndex = i;
+			self.focusIndex = index;
 			if(typeof self.onChange === 'function'){
 				self.onChange.call(self.$select[0],{
 					title: option.title, 
